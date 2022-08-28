@@ -72,7 +72,7 @@ impl Contract {
     // Public method - returns the greeting saved, defaulting to DEFAULT_MESSAGE
     // pub fn get_greeting(&self) -> String {
     //     return self.message.clone();
-    // }
+    // 
 
     // // Public method - accepts a greeting, such as "howdy", and records it
     // pub fn set_greeting(&mut self, message: String) {
