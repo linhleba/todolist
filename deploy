@@ -4247,4 +4247,56 @@ Changes not staged for commit:
 	[31mmodified:   deploy[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;32m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;32m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;32m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m "update .ig  gitignore"[?1l>[?2004l
+]2;git commit -m "update .gitignore"]1;git[master e6b0253] update .gitignore
+ 3 files changed, 2261 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;32m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitTo https://github.com/linhleba/todolist.git
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: failed to push some refs to 'https://github.com/linhleba/todolist.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;31m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hggit pull[?1l>[?2004l
+]2;git pull]1;gitremote: Enumerating objects: 2, done.[K
+remote: Counting objects:  50% (1/2)[Kremote: Counting objects: 100% (2/2)[Kremote: Counting objects: 100% (2/2), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  50% (1/2)Unpacking objects: 100% (2/2)Unpacking objects: 100% (2/2), 860 bytes | 430.00 KiB/s, done.
+From https://github.com/linhleba/todolist
+   b0c679b..a8927e7  master     -> origin/master
+[33mhint: You have divergent branches and need to specify how to reconcile them.[m
+[33mhint: You can do so by running one of the following commands sometime before[m
+[33mhint: your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+fatal: Need to specify how to reconcile divergent branches.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;31m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitTo https://github.com/linhleba/todolist.git
+ [31m! [rejected]       [m master -> master (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/linhleba/todolist.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;31m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push --fr ore ce[?1l>[?2004l
+]2;git push --force]1;gitEnumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 36.03 KiB | 2.25 MiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/linhleba/todolist.git
+ + a8927e7...e6b0253 master -> master (forced update)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ]2;linhleba@Linhs-MacBook-Pro:~/Desktop/blockchain/demo1]1;..ckchain/demo1[0m[27m[24m[J[01;32m➜  [36mdemo1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h

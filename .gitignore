@@ -28,6 +28,7 @@ node_modules
 /.cache
 /deploy
 /env
+deploy
 
 npm-debug.log*
 yarn-debug.log*
